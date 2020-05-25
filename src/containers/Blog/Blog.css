@@ -1,0 +1,31 @@
+.Posts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.Blog ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Blog li {
+    margin: 10px
+}
+
+.Blog li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.Blog a:hover,
+.Blog a:active,
+.Blog a.active {
+    color: #e91224;
+}
